@@ -1,0 +1,29 @@
+.background{
+    text-align: center;
+    margin-top: 40vh;
+    color: white !important;
+}
+
+.name{
+    font-size: 60px;
+}
+
+.link{
+    font-size: 30px;
+    color: white !important;
+}
+
+body {
+    overflow-y: hidden ! important;
+    overflow-x: hidden ! important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 100vh;
+
+    background: url(./mountain.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}
